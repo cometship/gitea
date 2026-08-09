@@ -353,6 +353,13 @@ $lvl3: if($isDark, $base, $crust);
   }
 }
 
+.ui.table {
+  > tr > td,
+  > tbody > tr > td {
+    border-top: 1px solid var(--color-secondary-dark-1);
+  }
+}
+
 .ui.basic.modal {
   background-color: $lvl3;
 }
