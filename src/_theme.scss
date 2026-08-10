@@ -287,7 +287,7 @@ $lvl3: if($isDark, $base, $crust);
   --color-shadow: #{color.change($lvl1, $alpha: 0.1)};
   --color-secondary-bg: #{$surface0};
   --color-text-focus: #{$text};
-  --color-expand-button: #{$surface2};
+  --color-expand-button: #{$surface1};
   --color-placeholder-text: #{$subtext0};
   --color-editor-line-highlight: var(--color-primary-light-5);
   --color-project-board-bg: var(--color-secondary-light-2);
