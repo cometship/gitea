@@ -344,7 +344,8 @@ $lvl3: if($isDark, $base, $crust);
   &.green,
   &.red,
   &.teal,
-  &.purple {
+  &.purple,
+  &[class*="task-status-"] {
     color: $lvl1;
 
     &:hover {
